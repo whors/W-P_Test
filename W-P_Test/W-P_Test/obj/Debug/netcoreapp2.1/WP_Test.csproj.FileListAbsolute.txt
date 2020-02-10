@@ -1,0 +1,14 @@
+C:\W-P_Test\W-P_Test\bin\Debug\netcoreapp2.1\WP_Test.deps.json
+C:\W-P_Test\W-P_Test\bin\Debug\netcoreapp2.1\WP_Test.runtimeconfig.json
+C:\W-P_Test\W-P_Test\bin\Debug\netcoreapp2.1\WP_Test.runtimeconfig.dev.json
+C:\W-P_Test\W-P_Test\bin\Debug\netcoreapp2.1\WP_Test.dll
+C:\W-P_Test\W-P_Test\bin\Debug\netcoreapp2.1\WP_Test.pdb
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\WP_Test.csprojAssemblyReference.cache
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\WP_Test.csproj.CoreCompileInputs.cache
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\WP_Test.RazorAssemblyInfo.cache
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\WP_Test.RazorAssemblyInfo.cs
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\WP_Test.AssemblyInfoInputs.cache
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\WP_Test.AssemblyInfo.cs
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\WP_Test.RazorTargetAssemblyInfo.cache
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\WP_Test.dll
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\WP_Test.pdb

@@ -1,0 +1,6 @@
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\W-P_Test.csprojAssemblyReference.cache
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\W-P_Test.csproj.CoreCompileInputs.cache
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\W-P_Test.RazorAssemblyInfo.cache
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\W-P_Test.RazorAssemblyInfo.cs
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\W-P_Test.AssemblyInfoInputs.cache
+C:\W-P_Test\W-P_Test\obj\Debug\netcoreapp2.1\W-P_Test.AssemblyInfo.cs
