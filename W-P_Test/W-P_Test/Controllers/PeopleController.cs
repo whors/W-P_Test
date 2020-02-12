@@ -18,24 +18,43 @@ namespace WP_Test.Controllers
         {
             this.peopleDataProvider = peopleDataProvider;
         }
-
-        // GET api/values
+        
         [HttpGet]
         public async Task<IActionResult> GetLondonPeople()
         {
-            var listOfPeople =  await this.peopleDataProvider.GetPeople("city/London/users");
-            if (listOfPeople == null){
+            var listOfPeople =  await this.peopleDataProvider.GetPeopleAsync("city/London/users");
+            if (listOfPeople == null || !listOfPeople.Any()){
                 return NotFound("No users found or bad request");
             }
             return Ok(listOfPeople);
         }
 
-        // GET api/values/5
         [HttpGet("{id}")]
-        public ActionResult<string> Get(int id)
+        public async Task<IActionResult> GetLondonPeopleWithinFiftyMiles()
         {
-            return "value";
+            IEnumerable<Person> listOfPeople = await this.peopleDataProvider.GetPeopleAsync("/users");
+            if (listOfPeople == null || !listOfPeople.Any())
+            {
+                return NotFound("No users found or bad request");
+            }
+
+            List<Person> people = listOfPeople.ToList();
+
+            double londonLatitudeRef = 51.50853;
+            double londonLongitudeRef = -0.12574;
+            double distance = Double.MinValue;
+
+            foreach(Person p in people.ToList())
+            {
+                distance = Helpers.CalculateDistance(londonLatitudeRef, londonLongitudeRef, p.latitude, p.longitude);
+                if(distance > 50.0)
+                {
+                    people.Remove(p);
+                }
+            }
+
+            return Ok(people);
         }
-       
+
     }
 }

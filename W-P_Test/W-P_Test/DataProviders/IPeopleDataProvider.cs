@@ -8,7 +8,10 @@ using WP_Test.Models;
 namespace WP_Test.DataProviders
 {
     public interface IPeopleDataProvider
-    {
-        Task<IEnumerable<Person>> GetPeople(string query);
+    {       
+        Task<IEnumerable<Person>> GetPeopleAsync(string query);
+        
     }
+
+
 }

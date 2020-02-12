@@ -12,11 +12,10 @@ namespace WP_Test.DataProviders
 {
     public class PeopleDataProvider : IPeopleDataProvider
     {
-        public async Task<IEnumerable<Person>> GetPeople(string query)
-        {
-            string _apiUrl = "https://bpdts-test-app.herokuapp.com/";
-            string _baseAddress = "https://bpdts-test-app.herokuapp.com/";
+        string _baseAddress = "https://bpdts-test-app.herokuapp.com/";
 
+        public async Task<IEnumerable<Person>> GetPeopleAsync(string query)
+        {                        
             ServicePointManager.SecurityProtocol |= SecurityProtocolType.Tls12 | SecurityProtocolType.Tls11 | SecurityProtocolType.Tls;
             AppContext.SetSwitch("System.Net.Http.UseSocketsHttpHandler", false);
 
@@ -25,20 +24,17 @@ namespace WP_Test.DataProviders
                 client.BaseAddress = new Uri(_baseAddress);
                 client.DefaultRequestHeaders.Accept.Clear();
                 client.DefaultRequestHeaders.Accept.Add(new MediaTypeWithQualityHeaderValue("application/json"));
-                var responseMessage = await client.GetAsync(_apiUrl + query);
+                var responseMessage = await client.GetAsync(_baseAddress + query);
                
 
                 if (responseMessage.IsSuccessStatusCode)
-                {
-                    
+                {                    
                     return await responseMessage.Content.ReadAsJsonAsync<List<Person>>();   
-
                 }
 
                 return await Task.FromResult<IEnumerable<Person>>(null);
             }
         }
 
-    
     }
 }

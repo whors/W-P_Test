@@ -1,0 +1,17 @@
+C:\W-P_Test\W-P_Test_UnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTest.TestAdapter.dll
+C:\W-P_Test\W-P_Test_UnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.Interface.dll
+C:\W-P_Test\W-P_Test_UnitTests\bin\Debug\netcoreapp2.1\Microsoft.VisualStudio.TestPlatform.MSTestAdapter.PlatformServices.dll
+C:\W-P_Test\W-P_Test_UnitTests\bin\Debug\netcoreapp2.1\WP_Test_UnitTests.deps.json
+C:\W-P_Test\W-P_Test_UnitTests\bin\Debug\netcoreapp2.1\WP_Test_UnitTests.runtimeconfig.json
+C:\W-P_Test\W-P_Test_UnitTests\bin\Debug\netcoreapp2.1\WP_Test_UnitTests.runtimeconfig.dev.json
+C:\W-P_Test\W-P_Test_UnitTests\bin\Debug\netcoreapp2.1\WP_Test_UnitTests.dll
+C:\W-P_Test\W-P_Test_UnitTests\bin\Debug\netcoreapp2.1\WP_Test.dll
+C:\W-P_Test\W-P_Test_UnitTests\bin\Debug\netcoreapp2.1\WP_Test.pdb
+C:\W-P_Test\W-P_Test_UnitTests\obj\Debug\netcoreapp2.1\WP_Test_UnitTests.csprojAssemblyReference.cache
+C:\W-P_Test\W-P_Test_UnitTests\obj\Debug\netcoreapp2.1\WP_Test_UnitTests.csproj.CoreCompileInputs.cache
+C:\W-P_Test\W-P_Test_UnitTests\obj\Debug\netcoreapp2.1\WP_Test_UnitTests.AssemblyInfoInputs.cache
+C:\W-P_Test\W-P_Test_UnitTests\obj\Debug\netcoreapp2.1\WP_Test_UnitTests.AssemblyInfo.cs
+C:\W-P_Test\W-P_Test_UnitTests\obj\Debug\netcoreapp2.1\WP_Test_UnitTests.csproj.CopyComplete
+C:\W-P_Test\W-P_Test_UnitTests\bin\Debug\netcoreapp2.1\WP_Test_UnitTests.pdb
+C:\W-P_Test\W-P_Test_UnitTests\obj\Debug\netcoreapp2.1\WP_Test_UnitTests.dll
+C:\W-P_Test\W-P_Test_UnitTests\obj\Debug\netcoreapp2.1\WP_Test_UnitTests.pdb
